@@ -1,4 +1,4 @@
 export default {
-  title: 'Marina Aísa - Product Designer and Front-End Developer',
-  description: 'I’m a Product Designer (UI/UX) and Front-End Developer based in Barcelona.'
+  title: 'Bob Walsh - fullstack Rails/JS/Vue developer, founder, and HubSpot specialist',
+  description: 'I build apps, nurture a Saas (Learnshortcuts.dev), implement HubSpot, and write about the developer world from just north of San Francisco.'
 }
