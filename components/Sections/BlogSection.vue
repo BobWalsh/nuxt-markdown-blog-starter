@@ -1,8 +1,10 @@
 <template>
   <section>
+    
+  
     <div class="blogs__top">
       <div>
-        <h2>{{ $t('posts') }}</h2>
+        <h2>test {{ $t('posts') }}</h2>
         <span class="emoji-title emoji--writing"/>
       </div>
       <LangSwitcher/>
@@ -28,6 +30,7 @@ export default {
   }
 }
 </script>
+
 <style lang="scss">
 .blogs {
   margin: 0;
