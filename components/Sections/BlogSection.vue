@@ -7,7 +7,7 @@
         <h2>test {{ $t('posts') }}</h2>
         <span class="emoji-title emoji--writing"/>
       </div>
-      <LangSwitcher/>
+
     </div>
     <ul class="blogs">
       <blog-card
