@@ -21,6 +21,8 @@
     "analyze": "nuxt build --analyze"
   },
   "devDependencies": {
+    "@mdi/font": "^4.4.95",
+    "@nuxtjs/vuetify": "^1.8.5",
     "frontmatter-markdown-loader": "^1.8.0",
     "highlight.js": "^9.15.10",
     "node-sass": "^4.12.0",
