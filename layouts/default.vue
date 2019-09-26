@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <v-app-bar color="primary" dark>
+    <v-app-bar color="success" dark>
       <v-toolbar-title>47hats 2019</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -16,10 +16,10 @@
   </div>
 </template>
 <script>
-  import Footer from '~/components/Sections/Footer'
+import Footer from "~/components/Sections/Footer";
 
-  export default {
-    data() {
+export default {
+  data() {
     return {
       links: [
         {
@@ -31,16 +31,28 @@
           url: "/login"
         },
         {
+          label: "ActionPages",
+          url: "/actionpages"
+        },
+        {
+          label: "Books",
+          url: "/books"
+        },
+        {
+          label: "Hire me!",
+          url: "/hireme"
+        },
+        {
           label: "Dashboard",
           url: "/dashboard"
         }
       ]
     };
   },
-    components: {
-      Footer
-    }
+  components: {
+    Footer
   }
+};
 </script>
 <style lang="scss">
 .layout {

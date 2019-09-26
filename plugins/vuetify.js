@@ -3,23 +3,19 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css' // Ensure you are using css-loader version "^2.1.1" ,
 import colors from "vuetify/es5/util/colors";
+
 Vue.use(Vuetify)
 
 export default ctx => {
   const vuetify = new Vuetify({
+    icons: {
+      iconfont: 'md',
+    },
     theme: {
-      dark: false,
-      themes: {
-        dark: {
-          primary: colors.deepPurple.lighten3,
-          accent: colors.deepPurple.accent3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent4
-        }
-      }
+      primary: '#9652ff',
+      success: '#3cd1c2',
+      info: 'ffaa2c',
+      success: '#fx3e70'
     },
   })
 
