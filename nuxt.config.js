@@ -63,7 +63,7 @@ module.exports = {
   ],
 
   build: {
-    extend (config) {
+    extend(config) {
       const rule = config.module.rules.find(r => r.test.toString() === '/\\.(png|jpe?g|gif|svg|webp)$/i')
       config.module.rules.splice(config.module.rules.indexOf(rule), 1)
 
@@ -96,7 +96,7 @@ module.exports = {
     }
   },
   plugins: ['~/plugins/lazyload', '~/plugins/globalComponents', '@plugins/vuetify', { src: '~plugins/ga.js', ssr: false }],
-  modules: [  
+  modules: [
     '@nuxtjs/style-resources',
     ['nuxt-i18n', I18N],
     'nuxt-webfontloader',
@@ -123,7 +123,7 @@ module.exports = {
     routes: [
       '/es', '404'
     ]
-    .concat(blogsEn.map(w => `/blog/${w}`))
-    .concat(blogsEs.map(w => `es/blog/${w}`))
+      .concat(blogsEn.map(w => `/blog/${w}`))
+      .concat(blogsEs.map(w => `es/blog/${w}`))
   }
 }
